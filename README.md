@@ -21,6 +21,9 @@ Done in three steps:
 2. Emotion Recognition: using a model trained by using Mediapipe library.
 3. Music Recommendation: Using detected emotion to create a search query on Youtube
 
+The model is trained for 50 epochs and runs at 87% accuracy.
+![image](https://user-images.githubusercontent.com/81975567/170823927-bd313103-7b34-42fd-9635-1b913ec65667.png)
+
 ### Useful Links
 - [Deployed Website]()
 - [Demo Video]()
