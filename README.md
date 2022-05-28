@@ -33,11 +33,12 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 
 ### Features & Interfaces
 1. Landing Page
-![image](https://user-images.githubusercontent.com/81975567/170834521-5e1d8bdc-be67-4760-8880-0dca22f58b61.png)
+![image](https://user-images.githubusercontent.com/81975567/170835333-7a69618e-3f3c-46e9-90b1-b6fc72cc5553.png)
+
 
 Seamless landing page filled with dark-theme.
 
-2.
+2. 
 
 
 
