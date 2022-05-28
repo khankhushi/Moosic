@@ -10,10 +10,19 @@ import webbrowser
 
 
 
-st.set_page_config(layout="wide")
-st.image(".\Images\logo.png" , width=1370)
-st.title("Moodify")
-st.write('Moodify is emotion detection based music recommendation system. To get reccommended songs, start by allowing mic and camera for this web app, then enter your preferred artist and language. Wait for a while to get your emotions captured. Click on recommend button and enjoy.')
+col1, col2, col3 = st.columns([1,6,1])
+with col1:
+    st.write("")
+
+with col2:
+    st.image(".\Images\logo.png" , width=530, use_column_width=True)
+
+with col3:
+    st.write("")
+
+st.title("Moosic")
+st.write('Moosic is emotion detection based music reccommendation system. To get reccommended songs, start by allowing mic and camera for this web app.')
+
 
 
 
@@ -118,11 +127,7 @@ st.write('Made with ❤ by [Khushi](https://github.com/khankhushi/Moodify)')
 
 #Streamlit Customisation
 st.markdown(""" <style>
-div.stImage > 
-img{
-    align="center";
-}
-
+header {visibility: hidden;}
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
