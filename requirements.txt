@@ -6,3 +6,4 @@ av==9.2.0
 keras==2.9.0
 tensorflow==2.9.0
 numpy==1.22.3
+dlib==19.24.0
