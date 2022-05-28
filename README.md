@@ -1,4 +1,4 @@
-# Moodify - Facial emotion detection based music recommendation system
+# Moosic - Facial emotion detection based music recommendation system
 #### Submission for Microsoft Engage 2022
 ![logo](https://user-images.githubusercontent.com/81975567/170825957-55b94708-4893-4e13-a4aa-c5fa4ca9b070.png)
 
@@ -33,7 +33,8 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 
 ### Features & Interfaces
 1. Landing Page
-![image](https://user-images.githubusercontent.com/81975567/170827305-a7635dd7-2bf6-4feb-9fdc-6c28cc5bd98d.png)
+![image](https://user-images.githubusercontent.com/81975567/170834521-5e1d8bdc-be67-4760-8880-0dca22f58b61.png)
+
 Seamless landing page filled with dark-theme.
 
 2.
