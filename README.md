@@ -7,7 +7,7 @@ This project is built as a part of [Engage Mentorship Program 2022](https://aceh
 ### Table of Contents
 1. [About the Project](#about)
 2. [Useful Links](#useful-links)
-3. [Features Implemented](#features)
+3. [Features & Interfaces](#features-&-interfaces)
 4. [Dependencies](#dependencies)
 5. [Instructions](#instructions)
 6. [System Architecture](#system-architechture)
@@ -27,12 +27,18 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 ![image](https://user-images.githubusercontent.com/81975567/170823927-bd313103-7b34-42fd-9635-1b913ec65667.png)
 
 ### Useful Links
-- [Deployed Website]()
 - [Demo Video]()
 - [Sprint Document]()
 - [Design Document]()
 
-### Features
+### Features & Interfaces
+1. Landing Page
+![image](https://user-images.githubusercontent.com/81975567/170827305-a7635dd7-2bf6-4feb-9fdc-6c28cc5bd98d.png)
+Seamless landing page filled with dark-theme.
+
+2.
+
+
 
 ### Dependencies
 This project depends on Python and following packages which can be easily installed through `requirements.txt` file by running the following command:
@@ -51,12 +57,8 @@ This project depends on Python and following packages which can be easily instal
 -	`cd ./moodify`
 -	`streamlit run app.py`
 -	The app is now running at http://localhost:8501
-
-
-#### Testing Web App
-- Allow permissions for camera and mic when loading the web app.
-- While testing, wait for the model to detect your emotions and click on recommend button to get songs based on a particular emotion
-- Emotion used previously are stored in the cache and might cause an error in recommending music, REFRESH the site to resolve this. 4.	Emotion used previously are stored in the cache and might cause an error in recommending music, REFRESH the site to resolve this. 
+-	While testing, wait for the model to detect your emotions and click on recommend button to get songs based on a particular emotion
+- Emotion used previously are stored as cache and might cause an error in recommending music, delete `detected_emotion.npy file` in the directory to resolve this. 
 - Recommended music is loaded in next tab as a youtube search query.
 
 ### System Architechture
@@ -66,11 +68,13 @@ This project depends on Python and following packages which can be easily instal
  This repository is organised as:
  - [app](/app.py) This file contain the setup of final web app.
  - [model](/model.h5) This file contains the trained model.
+ - [Emotion Detection](./Emotion%20Detection) This folder contains python scripts to train the model.
 
 
 
 
 ### Future Scope
+- Deploying the web app.
 - Integration of an inbuilt music player using  SpotiPy library, with spotify authentication.
 - Addition of more gestures, and control of volume using gesture detection.
 - Improved Reliablity and addition of User Feedback 
