@@ -13,6 +13,7 @@ import webbrowser
 st.set_page_config(layout="wide")
 st.image(".\Images\logo.png" , width=1370)
 st.title("Moodify")
+st.write('Moodify is emotion detection based music recommendation system. To get reccommended songs, start by allowing mic and camera for this web app, then enter your preferred artist and language. Wait for a while to get your emotions captured. Click on recommend button and enjoy.')
 
 
 
