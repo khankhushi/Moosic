@@ -1,5 +1,7 @@
-# Moodify - Facial emotion detection based music reccomendation system
+# Moodify - Facial emotion detection based music recommendation system
 #### Submission for Microsoft Engage 2022
+![logo](https://user-images.githubusercontent.com/81975567/170825957-55b94708-4893-4e13-a4aa-c5fa4ca9b070.png)
+
 This project is built as a part of [Engage Mentorship Program 2022](https://acehacker.com/microsoft/engage2022) by Microsoft.
 
 ### Table of Contents
@@ -75,6 +77,6 @@ This project depends on Python and following packages which can be easily instal
 
 ### References
 - [Emotional Detection and Music Recommendation System
-based on User Facial Expression - S Metilda Florence1 and M Uma2](https://iopscience.iop.org/article/10.1088/1757-899X/912/6/062007/pdf)
+based on User Facial Expression - S Metilda Florence and M Uma](https://iopscience.iop.org/article/10.1088/1757-899X/912/6/062007/pdf)
 
 
