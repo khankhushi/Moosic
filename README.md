@@ -27,7 +27,7 @@ The model is trained for 50 epochs and runs at 87% accuracy.
 ![image](https://user-images.githubusercontent.com/81975567/170823927-bd313103-7b34-42fd-9635-1b913ec65667.png)
 
 ### Useful Links
-- [Demo Video]()
+- [Demo Video](https://drive.google.com/file/d/18LERP3mieY1IuGvB4rP2dNVi7-gSJYCW/view?usp=sharing)
 - [Sprint Document](https://drive.google.com/file/d/16Hw_z2g4PVrzBO97enPeikW0-3zO8n5i/view?usp=sharing)
 - [Design Document](https://docs.google.com/presentation/d/1XoSN0gW_lVGJQSsLhSe6WVx80PbyMRAg/edit?usp=sharing&ouid=109023606663997444374&rtpof=true&sd=true)
 
