@@ -123,7 +123,7 @@ if btn:
 		st.session_state["run"] = "false"
 
 
-st.write('Made with ❤ by [Khushi](https://github.com/khankhushi/Moodify)')
+st.write('Made with ❤ by [Khushi](https://github.com/khankhushi/Moosic)')
 
 #Streamlit Customisation
 st.markdown(""" <style>
